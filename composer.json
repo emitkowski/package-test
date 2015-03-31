@@ -1,0 +1,39 @@
+{
+    "name": "emitkowski/test-package",
+    "type": "library",
+    "description": "Test Package for Composer",
+    "keywords": [
+        "test",
+        "composer",
+        "package"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Mitkowski",
+            "email": "eric.mitkowski@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TestPackage\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TestPackage\\PHPUnit\\": "test/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.0"
+        }
+    }
+}
