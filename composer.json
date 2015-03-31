@@ -26,14 +26,9 @@
             "TestPackage\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "TestPackage\\PHPUnit\\": "test/"
-        }
-    },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0.0"
+            "dev-master": "1.0.x-dev"
         }
     }
 }
